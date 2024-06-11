@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulario de Adopción</title>
+    <link href="css/style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="adopt.html">Adoptar</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+    <div class="container">
+        <form class="formulario-mascota">
+            <h2 class="titulo">Formulario de adopción de mascotas</h2>
+            <div class="form-datos-mascota">
+                <label for="fecha">Fecha</label>
+                <input type="text" id="fecha" name="fecha">
+                <label for="folio">Folio</label>
+                <input type="text" id="folio" name="folio">
+
+                <label for="responsable">Responsable</label>
+                <input type="text" id="responsable" name="responsable">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion">
+            </div>
+
+            <div>
+                <h3 class="titulo">Referencias</h3>
+                <div class="form-datos-referencia">
+                    <label for="Edad">Edad</label>
+                    <input type="text" id="edad" name="Edad">
+                    <span>Género:</span>
+                    <label for="hombre">
+                        <input type="radio" id="hombre" name="genero" value="hombre">
+                        Hombre
+                    </label>
+                    <label for="mujer">
+                        <input type="radio" id="mujer" name="genero" value="mujer">
+                        Mujer
+                    </label>
+                </div>
+                <div class="estado-civil">
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                        <option value="" disabled selected>Selecciona</option>
+                        <option value="soltero">soltero</option>
+                        <option value="casado">casado</option>
+                        <option value="divorciado">Divorciado</option>
+                    </select>
+
+                    <label for="departamento">departamento:</label>
+                    <select id="departamento" name="departamento">
+                        <option value="" disabled selected>selecciona un departamento</option>
+                        <option value="Ahuachapa">Ahuachapan</option>
+                        <option value="Sonsonate">Sonsonate</option>
+                        <option value="chalatenango">chalatenango</option>
+                        <option value="cabañas">cabañas</option>
+                        <option value="la libertad">la libertad</option>
+                        <option value="la paz">la paz</option>
+                        <option value="la union">la union</option>
+                        <option value="San Salvador">San Salvador</option>
+                        <option value="San Miguel">San Miguel</option>
+                        <option value="Usulutan">Usulutan</option>
+                        <option value="San Vicente">San Vicente</option>
+                        <option value="Morazan">Morazan</option>
+                        <option value="">Santa Ana</option>
+                        <option value="">Cuscatlan</option>
+                    </select>
+                </div>
+                <div class="form-datos-personales">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" placeholder="Telefono">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" placeholder="Gmail">
+    
+                    <label for="direccion">Dirección</label>
+                    <input type="text" placeholder="Dirección">
+                    <label for="ocupacion">Ocupación</label>
+                    <input type="text" placeholder="Ocupación">
+                    <label for="dui">DUI</label>
+                    <input type="text" placeholder="DUI">
+                </div>
+            </div>
+            <div class="btn-enviar">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>Sobre Nosotros</h2>
+                <p>Aquí en Love of Four Paws, creemos que cada mascota merece una familia que la cuide y la quiera.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adopt.html">Adoptar</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Email: info@RACAdopt.com</li>
+                    <li>Teléfono: +503 7556 7903</li>
+                    <li>Dirección: Calle Sabana, San Miguel, El Salvador</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-container footer-copy">
+            <p>Copyright © 2024 Love of Four Paws</p>
+            <p>Sitio creado por RAC: Diseño de sitios web para el cuidado de mascotas y animales</p>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

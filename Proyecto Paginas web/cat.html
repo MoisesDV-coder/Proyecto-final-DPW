@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos Disponibles</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="adopt.html">Adoptar</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p><b>Haga clic en la imagen de cada animal para obtener más información, así como notas sobre la ubicación y disponibilidad de cada animal.</b></p>
+            <p>¿Necesita ayuda para encontrar su pareja perfecta o tiene preguntas generales? Envíe un correo electrónico  a info@RACAdopt.com  para obtener sugerencias sobre qué animal puede ser el mejor para usted.</p>
+        </section>
+
+        <section class="features animals">
+            <div class="feature animals">
+                <img src="img/g1.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Cole</li>
+                    <li>55580387</li>
+                    <li>Gato</li>
+                    <li>Masculino</li>
+                    <li>Pelo Largo Doméstico/Mezcla</li>
+                    <li>12 años</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g2.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Salt</li>
+                    <li>55774564</li>
+                    <li>Gato</li>
+                    <li>Masculino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>2 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g3.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Moma</li>
+                    <li>55850045</li>
+                    <li>Gato</li>
+                    <li>Femenino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>9 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g4.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Gambit</li>
+                    <li>55908437</li>
+                    <li>Gato</li>
+                    <li>Masculino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>10 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g5.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Cupcake</li>
+                    <li>55925547</li>
+                    <li>Gato</li>
+                    <li>Femenino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>2 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g6.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Phantom</li>
+                    <li>55838213</li>
+                    <li>Gato</li>
+                    <li>Masculino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>2 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g7.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Roger</li>
+                    <li>55793332</li>
+                    <li>Gato</li>
+                    <li>Femenino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>1 mes</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+            <div class="feature animals">
+                <img src="img/g8.jpg" alt="Gato" class="clickable-image">
+                <ul class="animalsInfo">
+                    <li>Pepper</li>
+                    <li>55774571</li>
+                    <li>Gato</li>
+                    <li>Femenino</li>
+                    <li>Pelo corto Doméstico/Mezcla</li>
+                    <li>2 meses</li>
+                </ul>
+                <button class="adopt-button">Adoptar</button>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title"></h2>
+                    <img id="modal-image" src="" alt="Imagen">
+                    <table id="modal-table"></table>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>Sobre Nosotros</h2>
+                <p>Aquí en Love of Four Paws, creemos que cada mascota merece una familia que la cuide y la quiera.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adopt.html">Adoptar</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Email: info@RACAdopt.com</li>
+                    <li>Teléfono: +503 7556 7903</li>
+                    <li>Dirección: Calle Sabana, San Miguel, El Salvador</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-container footer-copy">
+            <p>Copyright © 2024 Love of Four Paws</p>
+            <p>Sitio creado por RAC: Diseño de sitios web para el cuidado de mascotas y animales</p>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+    </body>
+</html>

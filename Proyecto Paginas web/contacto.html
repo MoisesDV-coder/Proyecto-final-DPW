@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styleAC.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="adopt.html">Adoptar</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">
+                Contáctenos</h2>
+            <p class="mb-8 lg:mb-16 font-light text-justify sm:text-xl">¿Interesado en
+                entregar un perro o un gato? Si necesita entregar un perro o un gato, comience el proceso completando un
+                formulario de solicitud de entrega que se encuentra AQUÍ . Una vez que se reciba su formulario, un
+                miembro del personal se comunicará con usted para programar una cita de entrega.
+            </p>
+            <p class="mb-8 lg:mb-16 font-light text-justify sm:text-xl">
+                ¿Interesado en adoptar un perro o un gato? Si desea adoptar un perro o un gato, comience el proceso
+                completando una solicitud de adopción que se encuentra AQUÍ . Una vez que haya completado su formulario,
+                haga clic AQUÍ para acceder a nuestro sitio web de programación y programar una hora para conocer a
+                nuestros animales adoptables.
+            </p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium">
+                    Correo Electrónico
+                    </label>
+                    <input type="email" id="email"
+                        class="shadow-sm border border-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                        placeholder="ejemplo@123.com" required>
+                </div>
+                <div>
+                    <label for="subject"
+                        class="block mb-2 text-sm font-medium">Motivo</label>
+                    <input type="text" id="subject"
+                        class="block p-3 w-full text-sm rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                        placeholder="Háganos saber cómo podemos ayudarle" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium">
+                        Mensaje</label>
+                    <textarea id="message" rows="6"
+                        class="block p-2.5 w-full text-sm rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+                        placeholder="Deja tu mensaje"></textarea>
+                </div>
+                <button type="submit"
+                    class="py-3 px-5 text-sm font-medium text-center rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Enviar</form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>Sobre Nosotros</h2>
+                <p>Aquí en Love of Four Paws, creemos que cada mascota merece una familia que la cuide y la quiera.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adopt.html">Adoptar</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Email: info@RACAdopt.com</li>
+                    <li>Teléfono: +503 7556 7903</li>
+                    <li>Dirección: Calle Sabana, San Miguel, El Salvador</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-container footer-copy">
+            <p>Copyright © 2024 Love of Four Paws</p>
+            <p>Sitio creado por RAC: Diseño de sitios web para el cuidado de mascotas y animales</p>
+        </div>
+    </footer>
+</body>
+
+</html>
